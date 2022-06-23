@@ -3,7 +3,7 @@ import TweetInput from "./TweetInput";
 import "./TweetBox.css";
 
 export default function TweetBox(props) {
-  console.log(props.tweets);
+  //console.log(props.tweets);
   //console.log(props.userProfile);
   //console.log(props.setTweets);
 
@@ -17,7 +17,7 @@ export default function TweetBox(props) {
       likes: 0,
       id: props.tweets.length,
     };
-    console.log(props.tweets);
+    //console.log(props.tweets);
     // deconstruct old array which in turn updates the list of tweets
     props.setTweets([...props.tweets, newTweet]);
   }
